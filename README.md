@@ -23,7 +23,7 @@ A project built with Django web framework and Bootstrap
 
 ### Project Preview
 
-* [Youtube](https://www.youtube.com/watch?v=Ux8aDtOjBOY)
+* T. B.A.
 
 ### Libraries and Packages used
 
