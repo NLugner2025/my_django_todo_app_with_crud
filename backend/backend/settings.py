@@ -55,13 +55,13 @@ INSTALLED_APPS = [
 	'rest_framework',
 	'django_filters',
 	'crispy_forms',
-    todos
-    users
-    api
-    rest_framework
-    django_filters
-    crispy_forms
-]
+    'todos',
+    'users',
+    'api',
+    'rest_framework',
+    'django_filters',
+    'crispy_forms',
+    ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
