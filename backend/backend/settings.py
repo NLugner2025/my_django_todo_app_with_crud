@@ -26,7 +26,7 @@ SECRET_KEY = (
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['.herokuapp.com', '127.0.0.1:8000', 'localhost']
+ALLOWED_HOSTS = ['.herokuapp.com', '127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -38,6 +38,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    todos.apps.TodosConfig,
+    users.apps.UsersConfig,
+    api.apps.ApiConfig,
+    rest_framework,
+    django_filters,
+    crispy_forms,
+    
 	
 	# My AppsL
 	'todos.apps.TodosConfig',
@@ -116,7 +123,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = '
 
 USE_I18N = True
 
