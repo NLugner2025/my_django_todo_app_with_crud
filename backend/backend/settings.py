@@ -55,6 +55,12 @@ INSTALLED_APPS = [
 	'rest_framework',
 	'django_filters',
 	'crispy_forms',
+    todos
+    users
+    api
+    rest_framework
+    django_filters
+    crispy_forms
 ]
 
 MIDDLEWARE = [
@@ -123,7 +129,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = '
+TIME_ZONE = 'UTC'
 
 USE_I18N = True
 
