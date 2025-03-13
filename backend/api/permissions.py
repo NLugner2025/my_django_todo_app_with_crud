@@ -1,7 +1,5 @@
 from rest_framework import permissions
 
-
-
 class IsOwnerOrReadOnly(permissions.BasePermission):
     """
     Custom permessions to show todos to everyone and to only allow the owner of the todo to edit it
