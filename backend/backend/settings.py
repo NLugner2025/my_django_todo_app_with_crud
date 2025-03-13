@@ -38,30 +38,24 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    todos.apps.TodosConfig,
-    users.apps.UsersConfig,
-    api.apps.ApiConfig,
-    rest_framework,
-    django_filters,
-    crispy_forms,
-    
-	
-	# My AppsL
-	'todos.apps.TodosConfig',
+    'todos.apps.TodosConfig',
     'users.apps.UsersConfig',
-	'api.apps.ApiConfig',
-	
-	# Third Party Apps:
-	'rest_framework',
-	'django_filters',
-	'crispy_forms',
-    'todos',
-    'users',
-    'api',
+    'api.apps.ApiConfig',
     'rest_framework',
     'django_filters',
     'crispy_forms',
-    ]
+    
+    
+    # My AppsL
+    'todos.apps.TodosConfig',
+    'users.apps.UsersConfig',
+    'api.apps.ApiConfig',
+    
+    # Third Party Apps:
+    'rest_framework',
+    'django_filters',
+    'crispy_forms',
+]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -110,7 +104,10 @@ DATABASES = {
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+        'NAME': (
+            'django.contrib.auth.password_validation.'
+            'UserAttributeSimilarityValidator'
+        ),
     },
     {
         'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
