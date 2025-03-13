@@ -41,7 +41,7 @@ HEAD
 
 ### To get started with this project
 
-- Clone the repository: git clone https://github.com/NLugner2025/my_django_todo_app_with_crud.git
+- Clone the repository: git clone https://github.com/NLugner2025/new_django_todo_crudapp.git
 
 - Change directory to backend `cd backend`
 
